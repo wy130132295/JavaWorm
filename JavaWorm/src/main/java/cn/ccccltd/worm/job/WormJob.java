@@ -1,4 +1,4 @@
-package cn.ccccltd.worm.job;
+﻿package cn.ccccltd.worm.job;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,7 @@ public class WormJob {
 		            	//新建请求发送对象
 		            	GetSender getSender = new GetSender();
 		            	//发送请求获取数据
-		            	String result = getSender.getHtmlResult(preUrl + keywords.get(index%3));
+		            	String result = getSender.getHtmlResult(preUrl + keywords.get(index%3)+"&start="+(index/3)*100);
 		            	//将json数据转换为javaBean
 		            	Bookrack bookrack = JsonUtils.jsonToPojo(result);
 		            	//写入结果
