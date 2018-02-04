@@ -29,7 +29,7 @@ public class WormJob {
 	//设置关键字
 	final static ArrayList<String> keywords = new ArrayList<String>();
 	static {
-		keywords.add("互联网12");
+		keywords.add("互联网1211");
 		keywords.add("编程22");
 		keywords.add("算法3211");
 	}
