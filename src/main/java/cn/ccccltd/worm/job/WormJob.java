@@ -1,4 +1,4 @@
-package cn.ccccltd.worm.job;
+﻿package cn.ccccltd.worm.job;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,9 +29,9 @@ public class WormJob {
 	//设置关键字
 	final static ArrayList<String> keywords = new ArrayList<String>();
 	static {
-		keywords.add("互联网");
-		keywords.add("编程");
-		keywords.add("算法");
+		keywords.add("互联网1");
+		keywords.add("编程2");
+		keywords.add("算法3");
 	}
 	public static void main(String[] args) {
 		System.out.println("搜索开始");
