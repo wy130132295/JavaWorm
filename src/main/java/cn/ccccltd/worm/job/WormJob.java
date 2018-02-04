@@ -29,9 +29,9 @@ public class WormJob {
 	//设置关键字
 	final static ArrayList<String> keywords = new ArrayList<String>();
 	static {
-		keywords.add("互联网1");
-		keywords.add("编程2");
-		keywords.add("算法3");
+		keywords.add("互联网12");
+		keywords.add("编程22");
+		keywords.add("算法32");
 	}
 	public static void main(String[] args) {
 		System.out.println("搜索开始");
