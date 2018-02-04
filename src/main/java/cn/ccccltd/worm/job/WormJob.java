@@ -31,7 +31,7 @@ public class WormJob {
 	static {
 		keywords.add("互联网12");
 		keywords.add("编程22");
-		keywords.add("算法32");
+		keywords.add("算法3211");
 	}
 	public static void main(String[] args) {
 		System.out.println("搜索开始");
